@@ -1,0 +1,82 @@
+
+.topalert{
+	height:70px;
+	position: absolute;
+	top: 30px;
+	left: 50%;
+	margin-left: -250px;
+	border-radius: 6px;
+	background-color: #ffffff;
+	z-index: 2;
+	width: 500px;
+}
+.topalert.ok{
+	box-shadow: 0 0 3px #225D22;
+}
+.topalert.ko{
+	box-shadow: 0 0 3px #AF3A35;
+	color: #AF3A35;
+}
+.topalert.warn{
+	box-shadow: 0 0 3px #A9AB30;
+	color: #A9AB30;
+}
+.topalert.ok .icoarea{
+	background-color: #225D22;
+}
+.topalert.ko .icoarea{
+	background-color: #AF3A35;
+}
+.topalert.warn .icoarea{
+	background-color: #A9AB30;
+}
+.topalert div{
+	display: inline-block;
+	line-height: 68px;
+	font-size: 16px;
+	font-family: verdana, sans-serif;
+	height: 100%;
+}
+.topalert .icoarea{
+	text-align: center;
+	width: 70px;
+	color: #ffffff
+}
+.topalert .textarea{
+	font-size: 13px;
+	padding-left: 10px;
+	font-weight: 600;
+	display: inline;
+	padding-right: 30px;
+}
+.topalert .closebtn{
+	position: absolute;
+	top: 0px;
+	right: 10px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 16px;
+	cursor: pointer;
+	cursor: hand;
+	color: #c0c0c0;
+}
+.topalert .closebtn:hover{
+	color: #8a8a8a;
+}
+.topalert .ico{
+	position: relative;
+}
+.topalert .ico:before{
+	position: relative;
+	font-size: 16px;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.topalert.ok .ico:before{
+    content: "\f00c";
+}
+.topalert.ko .ico:before, .topalert.warn .ico:before{
+    content: "\f06a";
+}
