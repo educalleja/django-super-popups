@@ -30,7 +30,7 @@ Installation
 
 2. Add to INSTALLED_APPS in your ``settings.py``:
 
-   ``'super-popups',``
+   ``'django_super_popups',``
 
 3. In your templates, load the following ``css`` and ``js`` files:
 

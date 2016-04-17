@@ -1,3 +1,3 @@
 include LICENSE
 include README.md
-recursive-include super_popups *.html *.css *.js
+recursive-include django_super_popups *.html *.css *.js
