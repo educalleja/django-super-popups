@@ -37,7 +37,7 @@ function get(name){
 }
 // Message defined from GET variables.
 if( typeof get("tyT") != 'undefined' && get("msT") != 'undefined'){
-	show_alert(get("msT"), get("tyT"));
+	show_alert(get("msT"), get("tyT"), get("autohide"));		
 }
 // Message defined from dictionary.
 if ( typeof superpopups != 'undefined' ){
